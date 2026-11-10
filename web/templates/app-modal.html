@@ -1,0 +1,7 @@
+<div v-if="isVisible" class="modal-overlay">
+    <div class="modal-content">
+        <p>{{ message }}</p>
+        <button @click="onConfirm">Ya, lanjutkan</button>
+        <button @click="close">Batal</button>
+    </div>
+</div>

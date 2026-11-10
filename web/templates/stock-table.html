@@ -1,0 +1,15 @@
+<!-- Template runtime tersedia sebagai #tpl-stock di index.html agar Vue 2 dapat
+     menginisialisasi komponen tanpa bundler. File ini menjadi salinan sumber
+     template untuk struktur proyek tugas. -->
+<div class="stock-table-template">
+    <h2>Manajemen &amp; Stok Bahan Ajar</h2>
+    <table>
+        <tbody>
+            <tr v-for="item in processedStok" :key="item.kode">
+                <td>{{ item.kode }}</td>
+                <td>{{ item.judul }}</td>
+                <td><status-badge :item="item"></status-badge></td>
+            </tr>
+        </tbody>
+    </table>
+</div>

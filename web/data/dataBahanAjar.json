@@ -1,0 +1,20 @@
+{
+  "upbjjList": ["Jakarta", "Bandung", "Surabaya", "Makassar"],
+  "kategoriList": ["BMP", "Modul", "Praktikum"],
+  "pengirimanList": ["JNE Regular", "J&T Express", "Pos Indonesia", "SiCepat"],
+  "stok": [
+    {"kode":"EKMA4116","judul":"Manajemen","kategori":"BMP","upbjj":"Jakarta","lokasi":"A-01","harga":85000,"qty":42,"safety":10,"catatanHTML":"Stok tersedia"},
+    {"kode":"ISIP4110","judul":"Pengantar Sosiologi","kategori":"BMP","upbjj":"Bandung","lokasi":"B-04","harga":72000,"qty":7,"safety":12,"catatanHTML":"Segera lakukan pemesanan ulang"},
+    {"kode":"MKDU4111","judul":"Pendidikan Agama Islam","kategori":"Modul","upbjj":"Surabaya","lokasi":"C-02","harga":65000,"qty":0,"safety":8,"catatanHTML":"Stok kosong"},
+    {"kode":"PAUD4202","judul":"Perkembangan Anak Usia Dini","kategori":"Praktikum","upbjj":"Makassar","lokasi":"D-03","harga":95000,"qty":18,"safety":10,"catatanHTML":"Stok tersedia"},
+    {"kode":"EKMA4213","judul":"Manajemen Keuangan","kategori":"BMP","upbjj":"Jakarta","lokasi":"A-03","harga":90000,"qty":5,"safety":10,"catatanHTML":"Stok menipis"}
+  ],
+  "paket": [
+    {"kodePaket":"PAKET-A","namaPaket":"Paket Ilmu Sosial","harga":215000,"detail":["EKMA4116","ISIP4110"]},
+    {"kodePaket":"PAKET-B","namaPaket":"Paket Pendidikan","harga":225000,"detail":["PAUD4202","MKDU4111"]},
+    {"kodePaket":"PAKET-C","namaPaket":"Paket Manajemen","harga":175000,"detail":["EKMA4116","EKMA4213"]}
+  ],
+  "tracking": [
+    {"noDo":"DO2026-001","nim":"0123456789","nama":"Siti Aminah","ekspedisi":"JNE Regular","tanggalKirim":"2026-10-28T08:30:00+07:00","totalHarga":215000,"progress":[{"waktu":"28/10/2026 08.30","keterangan":"Delivery Order dibuat & diproses"},{"waktu":"29/10/2026 14.10","keterangan":"Paket diserahkan ke ekspedisi"}]}
+  ]
+}

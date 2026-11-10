@@ -1,0 +1,7 @@
+<div class="order-template">
+    <h2>Formulir Pemesanan Bahan Ajar</h2>
+    <select v-model="form.paket">
+        <option :value="null">Pilih paket</option>
+        <option v-for="item in paket" :key="item.kodePaket" :value="item">{{ item.namaPaket }}</option>
+    </select>
+</div>
