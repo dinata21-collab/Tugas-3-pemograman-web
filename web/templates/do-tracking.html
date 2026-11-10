@@ -1,0 +1,7 @@
+<div class="tracking-template">
+    <h2>Tracking Delivery Order</h2>
+    <div v-for="item in filteredTracking" :key="item.noDo" class="tracking-card">
+        <h3>{{ item.noDo }}</h3>
+        <p>{{ item.nama }} - {{ item.ekspedisi }}</p>
+    </div>
+</div>
